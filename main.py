@@ -14,7 +14,7 @@ from image_engine import generate_math_image
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # === CONFIGURATION ===
-TOKEN = "8353906610:AAHrBKj_pzwt1t-6kiLcdQTHMicgzqfgbw8"
+TOKEN = "[Masukan Token Botmu]"
 
 # SETTING PROXY KHUSUS PYTHONANYWHERE
 proxy_url = "http://proxy.server:3128"

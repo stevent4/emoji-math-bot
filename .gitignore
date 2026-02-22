@@ -1,0 +1,9 @@
+# Mengabaikan folder cache
+__pycache__/
+
+# Mengabaikan database SQLite (agar skor pemain tidak bocor)
+*.db
+heavyweight_math.db
+
+# Mengabaikan file environment/rahasia
+.env

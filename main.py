@@ -16,11 +16,8 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # === CONFIGURATION ===
 TOKEN = "[Masukan Token Botmu]"
 
-# SETTING PROXY KHUSUS PYTHONANYWHERE
-proxy_url = "http://proxy.server:3128"
-session = AiohttpSession(proxy=proxy_url)
-
-bot = Bot(token=TOKEN, session=session)
+# SETTING NORMAL UNTUK VPS (Tanpa Proxy)
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 EMOJI_ASSETS = {
